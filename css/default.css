@@ -28,4 +28,35 @@ footer{
     text-align: center;
 }
 
+/*641px以上*/
+@media screen and (min-width:641px){
+    aside{
+        width: calc(50% - 20%);
+        float:left;
+    }
+    #side:after{
+        /*cleafix*/
+        content:"";
+        display:block;
+        clear:both;
+    }
+}
+@media screen and (min-width:1025px){
+    #main{
+        max-width: 1024px;
+        margin: auto;
+}
+section{
+    width:  calc(70% - 20px);
+    float:left;
+    }
+    aside{
+        width:  calc(100% - 20px);
+    }
+    #main:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+}
     
