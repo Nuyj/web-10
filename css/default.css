@@ -5,6 +5,31 @@
 margin: 0;
 padding: 0;
 }
-body{
 
+/*640px以上 980px以下*/
+@media screen and (min-width:641px) and (max-width:980px){
+body{
+    background-color: green;
+    }
 }
+
+/*981px以上*/
+@media screen and (min-width:981px){
+   body{
+       background-color: blue;
+  }
+}
+@media screen and (orientation:portrait){
+  body: after {
+     content: "縦長";
+  }
+}
+
+@media screen and (orientation:landscape){
+  body:after {
+      content:"横長";
+  }
+}
+  
+
+    
