@@ -27,7 +27,7 @@ body{
 
 @media screen and (orientation:landscape){
   body:after {
-      content:"横長";
+      content: "横長";
   }
 }
   
