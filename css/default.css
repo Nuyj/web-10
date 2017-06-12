@@ -10,6 +10,7 @@ padding: 0;
 @media screen and (max-width:640px){
     body{
         background-color: red;
+        font-family: "Noto Sans Japanese";
     }
 }
 /*640px以上 980px以下*/
